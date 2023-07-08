@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+</html>
+<style>
+form{
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-family: sans-serif;
+  max-width: 350px;
+  background: rgb(7, 126, 144);
+  padding: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 15);
+}
+input {
+  box-shadow: 0 0 0px;
+  border-radius: 15px;
+  border: 1px solid rgba(0, 0, 15);
+  resize: vertical;
+  height: 30px;
+}
+
+</style>
+<head>
+   
+   
+</head>
+<body>
+     <form action="/" method="post">
+        <label>
+              First Name<span class="req"></span>
+            </label>
+            <input type="text" required autocomplete="off"/>
+          <br>
+        <label>
+              Last Name<span class=">"req"></span>
+            </label>
+            <input type="text"required autocomplete="off"/>
+            <br>
+        <label>
+            Date of birth<span class="req"></span>
+          </label>
+        <input type="date"required autocomplete="off"/>
+          <br>
+          <label>
+            Phone number<span class="req"></span">
+            </label>
+        <input type="tel"required autocomplete="off"/>
+           <br>
+           <label>
+            Email Address<span class="req"></span>
+           </label>
+           <input type="email"required autocomplete="off"/>
+           <br>
+           <label 
+           for="country"> Country</label>
+           <select id="Country" name="Country">
+            <option
+            value="australia">australia</option>
+            <option value="canada"> canada</option>
+            <option value="nigeria"> nigeria</option>
+            <option value="usA">usass</option>
+           <br>
+          <label>
+            Password
+          </label>
+          <input type="password" name="password" placeholder="Password" >
+          <br>
+          <p class="forgot"><a href="#">Forgot Password?</a></p>
+         
+          <button class="button button-block">Log In</button>
+          
+          <button type="submit" class="button button-block">Get started</button>
+        
+      </form>
+      
+     
+ 
+</body>
+</html>
